@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap');
+
+body{
+  background: rgb(34,193,195);
+  background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+  font-family: "work sans";
+}
+
+html{
+  font-size: 100%;
+}
+
+.loginform{
+  max-width: 70%;
+  min-width: 50%;
+  max-height: 700px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 70%;
+  margin: 100px auto;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+.row{
+    padding: 5px;
+}
+#btn{
+    padding: 7px;
+    justify-content: space-between;
+    background-color: rgb(121, 214, 121);
+}
